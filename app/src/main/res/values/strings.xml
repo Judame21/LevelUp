@@ -3,4 +3,7 @@
     <string name="boton_subrayado"><u>Sing Up</u></string>
     <string name="boton_subrayado_register"><u>Log In</u></string>
 
+
+
+    <string name="client_id">883968047585-bv244kpeke7uip4j7kt49lf6s4j1c7ah.apps.googleusercontent.com</string>
 </resources>

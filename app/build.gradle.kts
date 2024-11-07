@@ -1,5 +1,6 @@
 plugins {
     alias(libs.plugins.android.application)
+    alias(libs.plugins.google.gms.google.services)
 }
 
 android {
@@ -36,10 +37,14 @@ dependencies {
     implementation(libs.material)
     implementation(libs.activity)
     implementation(libs.constraintlayout)
+    implementation(libs.firebase.auth)
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
-
+    implementation(libs.github.glide)
+    implementation(libs.play.services.auth.api.phone)
+    implementation(libs.play.services.auth)
+    implementation(libs.activity.v151)
     //material designt
 
     implementation("com.google.android.material:material:1.2.0-alpha03")

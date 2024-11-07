@@ -2,6 +2,7 @@ package com.jdcode.levelup;
 
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.KeyEvent;
 import android.view.View;
@@ -29,6 +30,8 @@ public class products extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+
+
         TextInputEditText fieldBusqueda = findViewById(R.id.field_busqueda);
 
         fieldBusqueda.setOnFocusChangeListener(new View.OnFocusChangeListener() {

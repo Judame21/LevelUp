@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "883968047585",
+    "project_id": "level-up-2110",
+    "storage_bucket": "level-up-2110.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:883968047585:android:fa1ce0c261eb5c273e7aa0",
+        "android_client_info": {
+          "package_name": "com.jdcode.levelup"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxuZ6cj-Bsl2LPtxmfJHzkX5uiSgV2ekU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

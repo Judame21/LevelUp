@@ -21,7 +21,6 @@
             android:layout_gravity="center"
             android:layout_marginTop="30dp"
             android:layout_marginBottom="30dp"
-            android:tint="#F2994B"
             app:srcCompat="@drawable/level_up_white" />
 
         <FrameLayout
@@ -51,7 +50,6 @@
                         android:layout_marginBottom="40dp"
                         android:fontFamily="sans-serif-light"
                         android:text="Log In"
-                        android:textColor="#F2F2F2"
                         android:textSize="48sp"
                         android:textStyle="bold" />
 
@@ -59,18 +57,19 @@
                         android:id="@+id/textView3"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="User"
-                        android:textColor="#F2F2F2" />
+                        android:text="Email" />
 
                     <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/emailLayout"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginBottom="20dp">
+                        android:layout_marginBottom="2dp"
+                        app:errorEnabled="true">
 
                         <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/emailInput"
                             android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:textColor="#F2F2F2">
+                            android:layout_height="wrap_content">
 
                         </com.google.android.material.textfield.TextInputEditText>
 
@@ -80,17 +79,20 @@
                         android:id="@+id/textView4"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Password"
-                        android:textColor="#F2F2F2" />
+                        android:text="Password" />
 
                     <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/passwordLayout"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginBottom="20dp">
+                        android:layout_marginBottom="2dp"
+                        app:errorEnabled="true"
+                        app:endIconMode="password_toggle">
 
                         <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/passwordInput"
+                            android:inputType="textPassword"
                             android:layout_width="match_parent"
-                            android:textColor="#F2F2F2"
                             android:layout_height="wrap_content">
 
                         </com.google.android.material.textfield.TextInputEditText>
@@ -99,10 +101,31 @@
 
                     <Button
                         android:id="@+id/button_login"
+                        style="@style/Widget.Material3.Button.ElevatedButton"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/black_button"
-                        android:text="Log In">
+                        android:layout_marginTop="10dp"
+                        android:backgroundTint="#000000"
+                        android:text="Log In"
+                        android:textColor="#FFFFFF">
+
+                    </Button>
+
+
+                    <Button
+                        android:id="@+id/button_google_login"
+                        style="@style/Widget.Material3.Button.ElevatedButton.Icon"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:backgroundTint="#FFFFFF"
+                        android:text="Log In With Google"
+                        android:textColor="#000000"
+                        app:icon="@drawable/google_logo"
+                        app:iconGravity="textStart"
+                        app:iconTint="@null"
+                        app:iconTintMode="src_atop"
+                        app:strokeColor="#000000">
 
                     </Button>
 
@@ -116,8 +139,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="Don´t have any account?"
-                            android:textColor="#F2F2F2" />
+                            android:text="Don´t have any account?" />
 
                         <Button
                             android:id="@+id/button_signup"
@@ -125,9 +147,11 @@
                             android:layout_width="74dp"
                             android:layout_height="38dp"
                             android:text="@string/boton_subrayado"
-                            android:textAllCaps="false">
+                            android:textAllCaps="false"
+                            android:textColor="#000000">
 
                         </Button>
+
 
                     </LinearLayout>
 

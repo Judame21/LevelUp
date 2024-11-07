@@ -187,8 +187,6 @@ public class LogIn extends AppCompatActivity {
                            Intent intent = new Intent(this, products.class);
                            finish();
                            startActivity(intent);
-
-
                        }
                    }else{
                        showAlert();

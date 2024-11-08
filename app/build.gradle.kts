@@ -46,8 +46,7 @@ dependencies {
     implementation(libs.play.services.auth.api.phone)
     implementation(libs.play.services.auth)
     implementation(libs.activity.v151)
+
     //material designt
-
     implementation("com.google.android.material:material:1.2.0-alpha03")
-
 }

@@ -2,6 +2,9 @@
 activityVersion = "1.5.1"
 agp = "8.6.0"
 githubGlide = "4.16.0"
+googleFirebaseFirestore = "24.0.0"
+googlePlayServices = "17.0.0"
+googleServices = "4.4.2"
 junit = "4.13.2"
 junitVersion = "1.2.1"
 espressoCore = "3.6.1"
@@ -14,10 +17,14 @@ firebaseAuth = "23.1.0"
 playServicesAuth = "21.2.0"
 playServicesAuthApiPhone = "18.1.0"
 firebaseFirestore = "25.1.1"
+playServicesAuthVersion = "20.3.0"
 
 [libraries]
 activity-v151 = { module = "androidx.activity:activity", version.ref = "activityVersion" }
+firebase-firestore-v2400 = { module = "com.google.firebase:firebase-firestore", version.ref = "googleFirebaseFirestore" }
 github-glide = { module = "com.github.bumptech.glide:glide", version.ref = "githubGlide" }
+google-play-services = { module = "com.google.android.gms:play-services", version.ref = "googlePlayServices" }
+google-services = { module = "com.google.gms:google-services", version.ref = "googleServices" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
 ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
 espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
@@ -29,6 +36,7 @@ firebase-auth = { group = "com.google.firebase", name = "firebase-auth", version
 play-services-auth = { module = "com.google.android.gms:play-services-auth", version.ref = "playServicesAuth" }
 play-services-auth-api-phone = { module = "com.google.android.gms:play-services-auth-api-phone", version.ref = "playServicesAuthApiPhone" }
 firebase-firestore = { group = "com.google.firebase", name = "firebase-firestore", version.ref = "firebaseFirestore" }
+play-services-auth-v2030 = { module = "com.google.android.gms:play-services-auth", version.ref = "playServicesAuthVersion" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

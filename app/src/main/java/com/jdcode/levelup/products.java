@@ -4,6 +4,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.KeyEvent;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
@@ -16,10 +17,12 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
+import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.google.android.material.textfield.TextInputEditText;
+import com.google.firebase.FirebaseApp;
 import com.google.firebase.firestore.CollectionReference;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.QueryDocumentSnapshot;
@@ -50,6 +53,8 @@ public class products extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+        FirebaseApp.initializeApp(this);
+
 
         //ASPECTO VISUAL PARA BOTON DE BUSQUEDA
         TextInputEditText fieldBusqueda = findViewById(R.id.field_busqueda);
@@ -84,8 +89,7 @@ public class products extends AppCompatActivity {
         //Funcion de cargar y mostrar productos
 
         recyclerView = findViewById(R.id.recyclerView);
-        recyclerView.setLayoutManager(new LinearLayoutManager(this));
-
+        recyclerView.setLayoutManager(new GridLayoutManager(this, 2));
         productList = new ArrayList<>();
         adapter = new ProductAdapter(this, productList);
         recyclerView.setAdapter(adapter);
@@ -93,20 +97,24 @@ public class products extends AppCompatActivity {
         db = FirebaseFirestore.getInstance();
 
         cargarProductos();
-
-
     }
 
     public void cargarProductos(){
-        CollectionReference productosRef = db.collection("product");
-
+        CollectionReference productosRef = db.collection("productos");
+        System.out.println("PRUEBA DE ENTRADA AL METODO");
         productosRef.get()
                 .addOnCompleteListener(task -> {
                     if (task.isSuccessful()) {
+                        System.out.println("TASK SUCESSFULL");
                         QuerySnapshot querySnapshot = task.getResult();
                         for (QueryDocumentSnapshot document : querySnapshot) {
                             Product product = document.toObject(Product.class);
                             productList.add(product);
+                            Log.d("FirebaseProductData", "ID: " + document.getId() +
+                                    ", Nombre: " + product.getNombre() +
+                                    ", Precio: " + product.getPrecio() +
+                                    ", Imagen URL: " + product.getImageUrl());
+
                         }
                         adapter.notifyDataSetChanged();
                     } else {

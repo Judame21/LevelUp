@@ -12,7 +12,20 @@
           "package_name": "com.jdcode.levelup"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "883968047585-90stq3sapdrf3r6mur4ihehs4v9eosa3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jdcode.levelup",
+            "certificate_hash": "1f75f3248f5965cb1ac44297ef658b9707ce931e"
+          }
+        },
+        {
+          "client_id": "883968047585-bv244kpeke7uip4j7kt49lf6s4j1c7ah.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyCxuZ6cj-Bsl2LPtxmfJHzkX5uiSgV2ekU"
@@ -20,7 +33,12 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "883968047585-bv244kpeke7uip4j7kt49lf6s4j1c7ah.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }

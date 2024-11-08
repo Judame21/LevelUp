@@ -3,3 +3,11 @@ plugins {
     alias(libs.plugins.android.application) apply false
     alias(libs.plugins.google.gms.google.services) apply false
 }
+
+buildscript {
+
+    dependencies {
+        // Asegúrate de tener esta línea
+        classpath(libs.google.services)
+    }
+}

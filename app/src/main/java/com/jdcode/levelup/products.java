@@ -113,7 +113,8 @@ public class products extends AppCompatActivity {
                             Log.d("FirebaseProductData", "ID: " + document.getId() +
                                     ", Nombre: " + product.getNombre() +
                                     ", Precio: " + product.getPrecio() +
-                                    ", Imagen URL: " + product.getImageUrl());
+                                    ", Imagen URL: " + product.getImageUrl()+
+                                    ", Descripcion: " + product.getDescripcion());
 
                         }
                         adapter.notifyDataSetChanged();

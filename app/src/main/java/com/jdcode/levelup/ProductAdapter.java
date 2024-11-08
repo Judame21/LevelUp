@@ -7,6 +7,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
@@ -38,13 +39,15 @@ public class ProductAdapter extends RecyclerView.Adapter<ProductAdapter.Producto
         holder.productTitle.setText(product.getNombre());
         holder.productPrice.setText("$" + product.getPrecio());
 
+
         // Cargar la imagen con Glide (asegúrate de tener Glide en tus dependencias)
         Glide.with(context)
                 .load(product.getImageUrl())
                 .into(holder.productImage);
 
         holder.addToCartButton.setOnClickListener(v -> {
-            // Acción al presionar el botón "Añadir al carrito"
+            CartManager.getInstance().addProductToCart(product);
+            Toast.makeText(context, product.getNombre() + " added to cart", Toast.LENGTH_SHORT).show();
         });
     }
 

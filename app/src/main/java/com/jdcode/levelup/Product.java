@@ -5,16 +5,28 @@ public class Product {
     private String nombre;
     private String  imageUrl;
     private double precio;
+    private String descripcion;
+    private int cantidad;
 
     public Product(){
 
     }
 
-    public Product(String id, String nombre, String imageUrl, double precio) {
+    public Product(String id, String nombre, String imageUrl, double precio, String descripcion) {
         this.id = id;
         this.nombre = nombre;
         this.imageUrl = imageUrl;
         this.precio = precio;
+        this.descripcion = descripcion;
+        this.cantidad = 1;
+    }
+
+    public int getCantidad() {
+        return cantidad;
+    }
+
+    public void setCantidad(int cantidad) {
+        this.cantidad = cantidad;
     }
 
     public String getId() {
@@ -47,5 +59,12 @@ public class Product {
 
     public void setPrecio(double precio) {
         this.precio = precio;
+    }
+
+    public String getDescripcion() {
+        return descripcion;
+    }
+    public void setDescripcion(String descripcion) {
+        this.descripcion = descripcion;
     }
 }

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1.7"
+                android:orientation="vertical">
+                <ImageView
+                    android:id="@+id/productImage"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:clipToPadding="false"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/celular"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/productName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Nombre del producto"
+                    android:layout_marginBottom="5dp"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/descriptionText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed luctus suscipit egestas. Morbi pellentesque egestas mattis. In aliquam tempor gravida. Praesent ultrices maximus auctor. Sed augue libero, vehicula vel interdum sed, scelerisque ut nibh. Aliquam laoreet, turpis quis volutpat molestie, urna leo fringilla ipsum, ac mattis leo nibh ac diam. Nunc suscipit tincidunt ante eget tincidunt. Maecenas gravida sit amet erat quis dignissim. Nunc pharetra convallis arcu, quis elementum nisl laoreet mattis. Nullam eget quam elit. Curabitur tortor ante, hendrerit pulvinar lacinia a, eleifend sit amet magna."
+                    android:textSize="14sp"
+                    android:ellipsize="end"
+                    android:maxLines="3"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/productPrice"
+                            android:layout_width="120dp"
+                            android:layout_height="wrap_content"
+                            android:padding="8dp"
+                            android:text="$99.99"
+                            android:textColor="#000000"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/removeButton"
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/black_button"
+                            android:foregroundGravity="center"
+                            android:gravity="center"
+                            android:padding="8dp"
+                            android:text="-"
+                            app:iconGravity="textTop"
+                            app:iconTint="#FBFBFB" />
+
+                        <TextView
+                            android:id="@+id/productQuantity"
+                            android:text="1"
+                            android:padding="15dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                        </TextView>
+
+
+                        <Button
+                            android:id="@+id/addButton"
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:background="@drawable/black_button"
+                            android:gravity="center"
+                            android:padding="8dp"
+                            android:text="+" />
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>

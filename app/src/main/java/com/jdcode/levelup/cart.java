@@ -1,5 +1,6 @@
 package com.jdcode.levelup;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -55,16 +56,28 @@ public class cart extends AppCompatActivity implements CartAdapter.TotalAmountLi
                 finalizarCarrito();
             }
         });
+
+        Button buttonContinue = findViewById(R.id.continueButton);
+        buttonContinue.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                continuarCompra();
+            }
+        });
+
     }
+
+    public void continuarCompra(){
+        Intent intent = new Intent(cart.this, MapActivity.class);
+        startActivity(intent);
+    }
+
 
     @Override
     public void updateTotalAmount() {
         double totalAmount = cartAdapter.getTotalPrice();
         totalAmountTextView.setText("Total: $" + String.format("%.2f", totalAmount));
     }
-
-
-
 
     public void finalizarCarrito(){
         finish();

@@ -3,9 +3,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.jdcode.levelup">
 
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-
 
     <application
         android:allowBackup="true"
@@ -17,6 +18,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LevelUp"
         tools:targetApi="31">
+        <activity
+            android:name=".MapActivity"
+            android:exported="false" />
         <activity
             android:name=".cart"
             android:exported="false" />
@@ -32,7 +36,7 @@
         <activity
             android:name=".RegisterActivity"
             android:exported="false"
-            android:windowSoftInputMode="adjustPan"/>
+            android:windowSoftInputMode="adjustPan" />
         <activity
             android:name=".LogIn"
             android:exported="true">
@@ -46,6 +50,9 @@
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key"/>
     </application>
 
 </manifest>

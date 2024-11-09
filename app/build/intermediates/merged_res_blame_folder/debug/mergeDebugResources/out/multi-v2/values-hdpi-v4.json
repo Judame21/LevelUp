@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.jdcode.levelup.app-mergeDebugResources-40:/values-hdpi-v4/values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\JUAN DAVID MENDEZ\\.gradle\\caches\\transforms-4\\4181cad2154b53f8c368bd91c4652b62\\transformed\\appcompat-1.7.0\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    }
+                }
+            ]
+        }
+    ]
+}

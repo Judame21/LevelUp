@@ -22,6 +22,7 @@ font dm_serif_text_italic
 id addButton
 id addToCartButton
 id btnConfirmLocation
+id button_camera
 id button_cart
 id button_close
 id button_google_login

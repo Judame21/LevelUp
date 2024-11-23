@@ -1,6 +1,10 @@
 [versions]
 activityVersion = "1.5.1"
 agp = "8.6.0"
+androidSdk = "0.8.0"
+cardPaymentsVersion = "CURRENT-VERSION-SNAPSHOT"
+checkoutSdk = "0.10.1"
+epaycoAndroid = "v3.13.0"
 githubGlide = "4.16.0"
 googleFirebaseFirestore = "24.0.0"
 googlePlayServices = "17.0.0"
@@ -14,6 +18,8 @@ activity = "1.9.2"
 constraintlayout = "2.1.4"
 googleGmsGoogleServices = "4.4.2"
 firebaseAuth = "23.1.0"
+paypalCheckoutSdkAndroidVersion = "2.0.0"
+payuSdk = "4.7.3"
 places = "4.0.0"
 playServicesAuth = "21.2.0"
 playServicesAuthApiPhone = "18.1.0"
@@ -24,6 +30,10 @@ playServicesLocation = "21.3.0"
 
 [libraries]
 activity-v151 = { module = "androidx.activity:activity", version.ref = "activityVersion" }
+android-card-payments = { module = "com.paypal.android:card-payments", version.ref = "cardPaymentsVersion" }
+android-sdk = { module = "com.paypal.checkout:android-sdk", version.ref = "androidSdk" }
+checkout-sdk = { module = "com.paypal.checkout:checkout-sdk", version.ref = "checkoutSdk" }
+epayco-android = { module = "com.github.epayco:epayco-android", version.ref = "epaycoAndroid" }
 firebase-firestore-v2400 = { module = "com.google.firebase:firebase-firestore", version.ref = "googleFirebaseFirestore" }
 github-glide = { module = "com.github.bumptech.glide:glide", version.ref = "githubGlide" }
 google-play-services = { module = "com.google.android.gms:play-services", version.ref = "googlePlayServices" }
@@ -36,6 +46,7 @@ material = { group = "com.google.android.material", name = "material", version.r
 activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
 constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
 firebase-auth = { group = "com.google.firebase", name = "firebase-auth", version.ref = "firebaseAuth" }
+payu-sdk = { module = "com.payu:payu-sdk", version.ref = "payuSdk" }
 places = { module = "com.google.android.libraries.places:places", version.ref = "places" }
 play-services-auth = { module = "com.google.android.gms:play-services-auth", version.ref = "playServicesAuth" }
 play-services-auth-api-phone = { module = "com.google.android.gms:play-services-auth-api-phone", version.ref = "playServicesAuthApiPhone" }
@@ -43,6 +54,7 @@ firebase-firestore = { group = "com.google.firebase", name = "firebase-firestore
 play-services-auth-v2030 = { module = "com.google.android.gms:play-services-auth", version.ref = "playServicesAuthVersion" }
 play-services-maps = { group = "com.google.android.gms", name = "play-services-maps", version.ref = "playServicesMaps" }
 play-services-location = { group = "com.google.android.gms", name = "play-services-location", version.ref = "playServicesLocation" }
+sdk-paypal-checkout-sdk-android = { module = "com.paypal.sdk:paypal-checkout-sdk-android", version.ref = "paypalCheckoutSdkAndroidVersion" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

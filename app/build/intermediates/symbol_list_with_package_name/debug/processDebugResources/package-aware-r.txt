@@ -3674,6 +3674,7 @@ id browser_actions_menu_items
 id browser_actions_menu_view
 id btnConfirmLocation
 id buttonPanel
+id button_camera
 id button_cart
 id button_close
 id button_google_login

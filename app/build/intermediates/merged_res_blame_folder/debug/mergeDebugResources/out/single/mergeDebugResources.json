@@ -1,150 +1,146 @@
 [
     {
-        "merged": "C:\\Users\\JUAN DAVID MENDEZ\\.gradle\\daemon\\8.7\\com.jdcode.levelup.app-debug-42:\\xml_data_extraction_rules.xml.flat",
-        "source": "C:\\Users\\JUAN DAVID MENDEZ\\.gradle\\daemon\\8.7\\com.jdcode.levelup.app-main-44:\\xml\\data_extraction_rules.xml"
+        "merged": "com.jdcode.levelup.app-debug-42:/drawable_logo_black.png.flat",
+        "source": "com.jdcode.levelup.app-main-44:/drawable/logo_black.png"
     },
     {
-        "merged": "C:\\Users\\JUAN DAVID MENDEZ\\.gradle\\daemon\\8.7\\com.jdcode.levelup.app-debug-42:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\JUAN DAVID MENDEZ\\.gradle\\daemon\\8.7\\com.jdcode.levelup.app-main-44:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "com.jdcode.levelup.app-debug-42:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.jdcode.levelup.app-main-44:/mipmap-hdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\JUAN DAVID MENDEZ\\.gradle\\daemon\\8.7\\com.jdcode.levelup.app-debug-42:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\JUAN DAVID MENDEZ\\.gradle\\daemon\\8.7\\com.jdcode.levelup.app-main-44:\\drawable\\ic_launcher_background.xml"
+        "merged": "com.jdcode.levelup.app-debug-42:/drawable_car_white.png.flat",
+        "source": "com.jdcode.levelup.app-main-44:/drawable/car_white.png"
     },
     {
-        "merged": "C:\\Users\\JUAN DAVID MENDEZ\\.gradle\\daemon\\8.7\\com.jdcode.levelup.app-debug-42:\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\JUAN DAVID MENDEZ\\.gradle\\daemon\\8.7\\com.jdcode.levelup.app-main-44:\\mipmap-mdpi\\ic_launcher.webp"
+        "merged": "com.jdcode.levelup.app-debug-42:/layout_cart_item_product.xml.flat",
+        "source": "com.jdcode.levelup.app-main-44:/layout/cart_item_product.xml"
     },
     {
-        "merged": "C:\\Users\\JUAN DAVID MENDEZ\\.gradle\\daemon\\8.7\\com.jdcode.levelup.app-debug-42:\\drawable_logo_white.png.flat",
-        "source": "C:\\Users\\JUAN DAVID MENDEZ\\.gradle\\daemon\\8.7\\com.jdcode.levelup.app-main-44:\\drawable\\logo_white.png"
+        "merged": "com.jdcode.levelup.app-debug-42:/xml_backup_rules.xml.flat",
+        "source": "com.jdcode.levelup.app-main-44:/xml/backup_rules.xml"
     },
     {
-        "merged": "C:\\Users\\JUAN DAVID MENDEZ\\.gradle\\daemon\\8.7\\com.jdcode.levelup.app-debug-42:\\font_bellefair.xml.flat",
-        "source": "C:\\Users\\JUAN DAVID MENDEZ\\.gradle\\daemon\\8.7\\com.jdcode.levelup.app-main-44:\\font\\bellefair.xml"
+        "merged": "com.jdcode.levelup.app-debug-42:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.jdcode.levelup.app-main-44:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\JUAN DAVID MENDEZ\\.gradle\\daemon\\8.7\\com.jdcode.levelup.app-debug-42:\\layout_item_product.xml.flat",
-        "source": "C:\\Users\\JUAN DAVID MENDEZ\\.gradle\\daemon\\8.7\\com.jdcode.levelup.app-main-44:\\layout\\item_product.xml"
+        "merged": "com.jdcode.levelup.app-debug-42:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.jdcode.levelup.app-main-44:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\JUAN DAVID MENDEZ\\.gradle\\daemon\\8.7\\com.jdcode.levelup.app-debug-42:\\xml_backup_rules.xml.flat",
-        "source": "C:\\Users\\JUAN DAVID MENDEZ\\.gradle\\daemon\\8.7\\com.jdcode.levelup.app-main-44:\\xml\\backup_rules.xml"
+        "merged": "com.jdcode.levelup.app-debug-42:/layout_register.xml.flat",
+        "source": "com.jdcode.levelup.app-main-44:/layout/register.xml"
     },
     {
-        "merged": "C:\\Users\\JUAN DAVID MENDEZ\\.gradle\\daemon\\8.7\\com.jdcode.levelup.app-debug-42:\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\JUAN DAVID MENDEZ\\.gradle\\daemon\\8.7\\com.jdcode.levelup.app-main-44:\\mipmap-hdpi\\ic_launcher_round.webp"
+        "merged": "com.jdcode.levelup.app-debug-42:/layout_activity_cart.xml.flat",
+        "source": "com.jdcode.levelup.app-main-44:/layout/activity_cart.xml"
     },
     {
-        "merged": "C:\\Users\\JUAN DAVID MENDEZ\\.gradle\\daemon\\8.7\\com.jdcode.levelup.app-debug-42:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\JUAN DAVID MENDEZ\\.gradle\\daemon\\8.7\\com.jdcode.levelup.app-main-44:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "com.jdcode.levelup.app-debug-42:/drawable_level_up_white.png.flat",
+        "source": "com.jdcode.levelup.app-main-44:/drawable/level_up_white.png"
     },
     {
-        "merged": "C:\\Users\\JUAN DAVID MENDEZ\\.gradle\\daemon\\8.7\\com.jdcode.levelup.app-debug-42:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\JUAN DAVID MENDEZ\\.gradle\\daemon\\8.7\\com.jdcode.levelup.app-main-44:\\mipmap-xhdpi\\ic_launcher_round.webp"
+        "merged": "com.jdcode.levelup.app-debug-42:/drawable_google_logo.png.flat",
+        "source": "com.jdcode.levelup.app-main-44:/drawable/google_logo.png"
     },
     {
-        "merged": "C:\\Users\\JUAN DAVID MENDEZ\\.gradle\\daemon\\8.7\\com.jdcode.levelup.app-debug-42:\\layout_register.xml.flat",
-        "source": "C:\\Users\\JUAN DAVID MENDEZ\\.gradle\\daemon\\8.7\\com.jdcode.levelup.app-main-44:\\layout\\register.xml"
+        "merged": "com.jdcode.levelup.app-debug-42:/drawable_white_button.xml.flat",
+        "source": "com.jdcode.levelup.app-main-44:/drawable/white_button.xml"
     },
     {
-        "merged": "C:\\Users\\JUAN DAVID MENDEZ\\.gradle\\daemon\\8.7\\com.jdcode.levelup.app-debug-42:\\layout_cart_item_product.xml.flat",
-        "source": "C:\\Users\\JUAN DAVID MENDEZ\\.gradle\\daemon\\8.7\\com.jdcode.levelup.app-main-44:\\layout\\cart_item_product.xml"
+        "merged": "com.jdcode.levelup.app-debug-42:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.jdcode.levelup.app-main-44:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\JUAN DAVID MENDEZ\\.gradle\\daemon\\8.7\\com.jdcode.levelup.app-debug-42:\\drawable_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\JUAN DAVID MENDEZ\\.gradle\\daemon\\8.7\\com.jdcode.levelup.app-main-44:\\drawable\\ic_launcher_foreground.xml"
+        "merged": "com.jdcode.levelup.app-debug-42:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.jdcode.levelup.app-main-44:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\JUAN DAVID MENDEZ\\.gradle\\daemon\\8.7\\com.jdcode.levelup.app-debug-42:\\layout_activity_login.xml.flat",
-        "source": "C:\\Users\\JUAN DAVID MENDEZ\\.gradle\\daemon\\8.7\\com.jdcode.levelup.app-main-44:\\layout\\activity_login.xml"
+        "merged": "com.jdcode.levelup.app-debug-42:/drawable_level_up_black.png.flat",
+        "source": "com.jdcode.levelup.app-main-44:/drawable/level_up_black.png"
     },
     {
-        "merged": "C:\\Users\\JUAN DAVID MENDEZ\\.gradle\\daemon\\8.7\\com.jdcode.levelup.app-debug-42:\\layout_activity_cart.xml.flat",
-        "source": "C:\\Users\\JUAN DAVID MENDEZ\\.gradle\\daemon\\8.7\\com.jdcode.levelup.app-main-44:\\layout\\activity_cart.xml"
+        "merged": "com.jdcode.levelup.app-debug-42:/layout_activity_login.xml.flat",
+        "source": "com.jdcode.levelup.app-main-44:/layout/activity_login.xml"
     },
     {
-        "merged": "C:\\Users\\JUAN DAVID MENDEZ\\.gradle\\daemon\\8.7\\com.jdcode.levelup.app-debug-42:\\layout_activity_products.xml.flat",
-        "source": "C:\\Users\\JUAN DAVID MENDEZ\\.gradle\\daemon\\8.7\\com.jdcode.levelup.app-main-44:\\layout\\activity_products.xml"
+        "merged": "com.jdcode.levelup.app-debug-42:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.jdcode.levelup.app-main-44:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\JUAN DAVID MENDEZ\\.gradle\\daemon\\8.7\\com.jdcode.levelup.app-debug-42:\\drawable_white_button.xml.flat",
-        "source": "C:\\Users\\JUAN DAVID MENDEZ\\.gradle\\daemon\\8.7\\com.jdcode.levelup.app-main-44:\\drawable\\white_button.xml"
+        "merged": "com.jdcode.levelup.app-debug-42:/font_bellefair.xml.flat",
+        "source": "com.jdcode.levelup.app-main-44:/font/bellefair.xml"
     },
     {
-        "merged": "C:\\Users\\JUAN DAVID MENDEZ\\.gradle\\daemon\\8.7\\com.jdcode.levelup.app-debug-42:\\layout_activity_map.xml.flat",
-        "source": "C:\\Users\\JUAN DAVID MENDEZ\\.gradle\\daemon\\8.7\\com.jdcode.levelup.app-main-44:\\layout\\activity_map.xml"
+        "merged": "com.jdcode.levelup.app-debug-42:/drawable_celular.png.flat",
+        "source": "com.jdcode.levelup.app-main-44:/drawable/celular.png"
     },
     {
-        "merged": "C:\\Users\\JUAN DAVID MENDEZ\\.gradle\\daemon\\8.7\\com.jdcode.levelup.app-debug-42:\\drawable_logo_black.png.flat",
-        "source": "C:\\Users\\JUAN DAVID MENDEZ\\.gradle\\daemon\\8.7\\com.jdcode.levelup.app-main-44:\\drawable\\logo_black.png"
+        "merged": "com.jdcode.levelup.app-debug-42:/drawable_black_button.xml.flat",
+        "source": "com.jdcode.levelup.app-main-44:/drawable/black_button.xml"
     },
     {
-        "merged": "C:\\Users\\JUAN DAVID MENDEZ\\.gradle\\daemon\\8.7\\com.jdcode.levelup.app-debug-42:\\font_dm_serif_text_italic.xml.flat",
-        "source": "C:\\Users\\JUAN DAVID MENDEZ\\.gradle\\daemon\\8.7\\com.jdcode.levelup.app-main-44:\\font\\dm_serif_text_italic.xml"
+        "merged": "com.jdcode.levelup.app-debug-42:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.jdcode.levelup.app-main-44:/drawable/ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\JUAN DAVID MENDEZ\\.gradle\\daemon\\8.7\\com.jdcode.levelup.app-debug-42:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\JUAN DAVID MENDEZ\\.gradle\\daemon\\8.7\\com.jdcode.levelup.app-main-44:\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "com.jdcode.levelup.app-debug-42:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.jdcode.levelup.app-main-44:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\JUAN DAVID MENDEZ\\.gradle\\daemon\\8.7\\com.jdcode.levelup.app-debug-42:\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\JUAN DAVID MENDEZ\\.gradle\\daemon\\8.7\\com.jdcode.levelup.app-main-44:\\mipmap-xhdpi\\ic_launcher.webp"
+        "merged": "com.jdcode.levelup.app-debug-42:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.jdcode.levelup.app-main-44:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\JUAN DAVID MENDEZ\\.gradle\\daemon\\8.7\\com.jdcode.levelup.app-debug-42:\\drawable_card_background.xml.flat",
-        "source": "C:\\Users\\JUAN DAVID MENDEZ\\.gradle\\daemon\\8.7\\com.jdcode.levelup.app-main-44:\\drawable\\card_background.xml"
+        "merged": "com.jdcode.levelup.app-debug-42:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.jdcode.levelup.app-main-44:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\JUAN DAVID MENDEZ\\.gradle\\daemon\\8.7\\com.jdcode.levelup.app-debug-42:\\drawable_google_logo.png.flat",
-        "source": "C:\\Users\\JUAN DAVID MENDEZ\\.gradle\\daemon\\8.7\\com.jdcode.levelup.app-main-44:\\drawable\\google_logo.png"
+        "merged": "com.jdcode.levelup.app-debug-42:/drawable_logo_white.png.flat",
+        "source": "com.jdcode.levelup.app-main-44:/drawable/logo_white.png"
     },
     {
-        "merged": "C:\\Users\\JUAN DAVID MENDEZ\\.gradle\\daemon\\8.7\\com.jdcode.levelup.app-debug-42:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\JUAN DAVID MENDEZ\\.gradle\\daemon\\8.7\\com.jdcode.levelup.app-main-44:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+        "merged": "com.jdcode.levelup.app-debug-42:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.jdcode.levelup.app-main-44:/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\JUAN DAVID MENDEZ\\.gradle\\daemon\\8.7\\com.jdcode.levelup.app-debug-42:\\drawable_level_up_white.png.flat",
-        "source": "C:\\Users\\JUAN DAVID MENDEZ\\.gradle\\daemon\\8.7\\com.jdcode.levelup.app-main-44:\\drawable\\level_up_white.png"
+        "merged": "com.jdcode.levelup.app-debug-42:/drawable_car_black.png.flat",
+        "source": "com.jdcode.levelup.app-main-44:/drawable/car_black.png"
     },
     {
-        "merged": "C:\\Users\\JUAN DAVID MENDEZ\\.gradle\\daemon\\8.7\\com.jdcode.levelup.app-debug-42:\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\JUAN DAVID MENDEZ\\.gradle\\daemon\\8.7\\com.jdcode.levelup.app-main-44:\\mipmap-mdpi\\ic_launcher_round.webp"
+        "merged": "com.jdcode.levelup.app-debug-42:/layout_item_product.xml.flat",
+        "source": "com.jdcode.levelup.app-main-44:/layout/item_product.xml"
     },
     {
-        "merged": "C:\\Users\\JUAN DAVID MENDEZ\\.gradle\\daemon\\8.7\\com.jdcode.levelup.app-debug-42:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\JUAN DAVID MENDEZ\\.gradle\\daemon\\8.7\\com.jdcode.levelup.app-main-44:\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "com.jdcode.levelup.app-debug-42:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.jdcode.levelup.app-main-44:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\JUAN DAVID MENDEZ\\.gradle\\daemon\\8.7\\com.jdcode.levelup.app-debug-42:\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\JUAN DAVID MENDEZ\\.gradle\\daemon\\8.7\\com.jdcode.levelup.app-main-44:\\mipmap-hdpi\\ic_launcher.webp"
+        "merged": "com.jdcode.levelup.app-debug-42:/font_dm_serif_text_italic.xml.flat",
+        "source": "com.jdcode.levelup.app-main-44:/font/dm_serif_text_italic.xml"
     },
     {
-        "merged": "C:\\Users\\JUAN DAVID MENDEZ\\.gradle\\daemon\\8.7\\com.jdcode.levelup.app-debug-42:\\drawable_car_white.png.flat",
-        "source": "C:\\Users\\JUAN DAVID MENDEZ\\.gradle\\daemon\\8.7\\com.jdcode.levelup.app-main-44:\\drawable\\car_white.png"
+        "merged": "com.jdcode.levelup.app-debug-42:/xml_data_extraction_rules.xml.flat",
+        "source": "com.jdcode.levelup.app-main-44:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "C:\\Users\\JUAN DAVID MENDEZ\\.gradle\\daemon\\8.7\\com.jdcode.levelup.app-debug-42:\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\JUAN DAVID MENDEZ\\.gradle\\daemon\\8.7\\com.jdcode.levelup.app-main-44:\\mipmap-xxhdpi\\ic_launcher.webp"
+        "merged": "com.jdcode.levelup.app-debug-42:/layout_activity_products.xml.flat",
+        "source": "com.jdcode.levelup.app-main-44:/layout/activity_products.xml"
     },
     {
-        "merged": "C:\\Users\\JUAN DAVID MENDEZ\\.gradle\\daemon\\8.7\\com.jdcode.levelup.app-debug-42:\\drawable_level_up_black.png.flat",
-        "source": "C:\\Users\\JUAN DAVID MENDEZ\\.gradle\\daemon\\8.7\\com.jdcode.levelup.app-main-44:\\drawable\\level_up_black.png"
-    },
-    {
-        "merged": "C:\\Users\\JUAN DAVID MENDEZ\\.gradle\\daemon\\8.7\\com.jdcode.levelup.app-debug-42:\\drawable_car_black.png.flat",
-        "source": "C:\\Users\\JUAN DAVID MENDEZ\\.gradle\\daemon\\8.7\\com.jdcode.levelup.app-main-44:\\drawable\\car_black.png"
+        "merged": "com.jdcode.levelup.app-debug-42:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.jdcode.levelup.app-main-44:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
         "merged": "com.jdcode.levelup.app-debug-42:/layout_activity_map.xml.flat",
         "source": "com.jdcode.levelup.app-main-44:/layout/activity_map.xml"
     },
     {
-        "merged": "C:\\Users\\JUAN DAVID MENDEZ\\.gradle\\daemon\\8.7\\com.jdcode.levelup.app-debug-42:\\drawable_black_button.xml.flat",
-        "source": "C:\\Users\\JUAN DAVID MENDEZ\\.gradle\\daemon\\8.7\\com.jdcode.levelup.app-main-44:\\drawable\\black_button.xml"
+        "merged": "com.jdcode.levelup.app-debug-42:/drawable_card_background.xml.flat",
+        "source": "com.jdcode.levelup.app-main-44:/drawable/card_background.xml"
     },
     {
-        "merged": "C:\\Users\\JUAN DAVID MENDEZ\\.gradle\\daemon\\8.7\\com.jdcode.levelup.app-debug-42:\\drawable_celular.png.flat",
-        "source": "C:\\Users\\JUAN DAVID MENDEZ\\.gradle\\daemon\\8.7\\com.jdcode.levelup.app-main-44:\\drawable\\celular.png"
+        "merged": "com.jdcode.levelup.app-debug-42:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.jdcode.levelup.app-main-44:/mipmap-xxhdpi/ic_launcher.webp"
     }
 ]

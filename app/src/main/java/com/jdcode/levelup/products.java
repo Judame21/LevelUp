@@ -3,7 +3,9 @@ package com.jdcode.levelup;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.content.pm.PackageManager;
 import android.os.Bundle;
+import android.provider.MediaStore;
 import android.util.Log;
 import android.view.KeyEvent;
 import android.view.View;
@@ -11,9 +13,12 @@ import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
+import android.Manifest;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.app.ActivityCompat;
+import androidx.core.content.ContextCompat;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
@@ -41,6 +46,9 @@ public class products extends AppCompatActivity {
     private ProductAdapter adapter;
 
     private FirebaseFirestore db;
+
+    private static final int REQUEST_IMAGE_CAPTURE = 1;
+    private static final int CAMERA_PERMISSION_REQUEST_CODE = 100;  // Código para la solicitud de permisos
 
 
     @Override
@@ -84,10 +92,30 @@ public class products extends AppCompatActivity {
             }
         });
 
+        //BOTON CAMARA
 
+
+
+        Button buttonCamera = findViewById(R.id.button_camera);
+        buttonCamera.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+
+                if (ContextCompat.checkSelfPermission(products.this, Manifest.permission.CAMERA)
+                        != PackageManager.PERMISSION_GRANTED) {
+                    // Si no tenemos permisos, solicitarlos
+                    ActivityCompat.requestPermissions(products.this,
+                            new String[]{Manifest.permission.CAMERA}, CAMERA_PERMISSION_REQUEST_CODE);
+                } else {
+                    openCamera();
+                }
+
+
+            }
+        });
 
         //Funcion de cargar y mostrar productos
-
         recyclerView = findViewById(R.id.recyclerView);
         recyclerView.setLayoutManager(new GridLayoutManager(this, 2));
         productList = new ArrayList<>();
@@ -97,6 +125,7 @@ public class products extends AppCompatActivity {
         db = FirebaseFirestore.getInstance();
 
         cargarProductos();
+
     }
 
     public void cargarProductos(){
@@ -122,6 +151,28 @@ public class products extends AppCompatActivity {
                         Toast.makeText(this, "Error al cargar productos", Toast.LENGTH_SHORT).show();
                     }
                 });
+    }
+
+    public void openCamera(){
+        Intent takePictureIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+
+        if (takePictureIntent.resolveActivity(getPackageManager()) != null) {
+            startActivityForResult(takePictureIntent, REQUEST_IMAGE_CAPTURE);
+        } else {
+            Toast.makeText(this, "No hay cámara disponible en este dispositivo", Toast.LENGTH_SHORT).show();
+        }
+
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+
+        if (requestCode == REQUEST_IMAGE_CAPTURE && resultCode == RESULT_OK) {
+            Toast.makeText(this, "No se ha encontrado un producto similar", Toast.LENGTH_SHORT).show();
+        } else {
+            Toast.makeText(this, "Error al tomar la foto o la acción fue cancelada", Toast.LENGTH_SHORT).show();
+        }
     }
 
 
